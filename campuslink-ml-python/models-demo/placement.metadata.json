@@ -1,0 +1,49 @@
+{
+  "version": "campuslink-logistic-py-demo-v1-0b67cc6d66a1",
+  "provenance": "unverified_demo",
+  "trainedAt": "2026-10-08T18:26:50.444063+05:30",
+  "featureOrder": [
+    "verifiedSkills",
+    "academics",
+    "projects",
+    "aptitude",
+    "communication",
+    "interview"
+  ],
+  "split": {
+    "strategy": "latest-cohort-with-student-group-isolation",
+    "trainingCohorts": [
+      "2024-25",
+      "2025-26"
+    ],
+    "testCohorts": [
+      "2026-27"
+    ],
+    "trainingStudentCount": 284,
+    "testStudentCount": 134,
+    "purgedRowsForGroupIsolation": 0
+  },
+  "evaluation": {
+    "model": {
+      "accuracy": 0.6940298507462687,
+      "precision": 0.6071428571428571,
+      "recall": 0.3617021276595745,
+      "f1": 0.4533333333333333,
+      "brier": 0.20477751655297363,
+      "testCount": 134,
+      "positiveCount": 47,
+      "negativeCount": 87
+    },
+    "majorityBaseline": {
+      "accuracy": 0.6492537313432836,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "brier": 0.2278079079903004,
+      "testCount": 134,
+      "positiveCount": 47,
+      "negativeCount": 87
+    },
+    "trainingCount": 284
+  }
+}
